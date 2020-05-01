@@ -1,0 +1,6 @@
+executable("hello_console") {
+  sources = [
+    "main.c",
+  ]
+}
+

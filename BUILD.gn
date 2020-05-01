@@ -1,0 +1,16 @@
+# visual_studio_version = "2017"
+
+group("root") {
+  deps = [
+    "//src/hello_console:hello_console",
+    "//src/hello_win:hello_win",
+    "//src/hello_lib:hello_lib",
+  ]
+}
+
+#Test Not Needed group("tests") {
+#Test Not Needed   testonly = true
+#Test Not Needed   deps = [
+#Test Not Needed     "//src/hello_lib:test_hello_lib",
+#Test Not Needed   ]
+#Test Not Needed }
